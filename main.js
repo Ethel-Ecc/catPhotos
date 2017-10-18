@@ -3,7 +3,6 @@ $(document).ready(function (){
     let ajaxResult = "";
     let counter = 0;
 
-
     //API call
     let URL = "https://pixabay.com/api/?key=6746448-134d21a799f0124eb887bf023&q=cats&per_page=200&image_type=photos";
     $.getJSON(URL, function(xyz){
